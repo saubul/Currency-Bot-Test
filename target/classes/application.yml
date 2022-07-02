@@ -1,0 +1,10 @@
+server:
+  port: 9000
+  
+spring:
+  application:
+    name: testtelegrambot
+    
+bot:
+  name: SaubulTestTelegramBot
+  token: 5279326899:AAEJtRhXCurEeKk1pTHY0Swz6t-Ef8yp_Fk
