@@ -6,5 +6,5 @@ spring:
     name: testtelegrambot
     
 bot:
-  name: SaubulTestTelegramBot
+  username: SaubulTestTelegramBot
   token: 5279326899:AAEJtRhXCurEeKk1pTHY0Swz6t-Ef8yp_Fk
