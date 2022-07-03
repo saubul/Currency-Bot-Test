@@ -5,12 +5,11 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import lombok.Getter;
 import lombok.Setter;
 
-@ConfigurationProperties(prefix = "bot")
+@ConfigurationProperties(prefix = "cbr")
 @Getter
 @Setter
-public class CurrencyBotConfig {
-	
-	private String username;
-	private String token;
+public class CbrConfig {
+
+	private String url;
 	
 }

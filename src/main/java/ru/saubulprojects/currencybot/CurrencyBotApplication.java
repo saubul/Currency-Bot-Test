@@ -11,11 +11,9 @@ import ru.saubulprojects.currencybot.bot.CurrencyBot;
 @SpringBootApplication
 public class CurrencyBotApplication {
 
-	private final CurrencyBot currencyBot;
 	
 	@SneakyThrows
 	public CurrencyBotApplication(CurrencyBot currencyBot) {
-		this.currencyBot = currencyBot;
 		TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
 		telegramBotsApi.registerBot(currencyBot);
 	}

@@ -8,3 +8,6 @@ spring:
 bot:
   username: SaubulTestTelegramBot
   token: 5279326899:AAEJtRhXCurEeKk1pTHY0Swz6t-Ef8yp_Fk
+  
+cbr:
+  url: https://cbr.ru/DailyInfoWebServ/DailyInfo.asmx

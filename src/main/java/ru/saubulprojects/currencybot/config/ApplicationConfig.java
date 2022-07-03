@@ -8,12 +8,12 @@ import org.telegram.telegrambots.bots.DefaultBotOptions;
 import ru.saubulprojects.currencybot.bot.CurrencyBot;
 
 @Configuration
-@EnableConfigurationProperties(CurrencyBotConfig.class)
+@EnableConfigurationProperties({CurrencyBotConfig.class, CbrConfig.class})
 public class ApplicationConfig {
 
 	@Bean
-	public CurrencyBot bot() {
-		return new CurrencyBot(new DefaultBotOptions());
+	public DefaultBotOptions options() {
+		return new DefaultBotOptions();
 	}
 	
 }

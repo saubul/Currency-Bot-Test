@@ -7,8 +7,6 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public enum Currency {
 	
-	USD(431), EUR(451), RUB(456), BYN(8);
-	
-	private final int id;
+	USD, EUR, RUB, BYN;
 	
 }
